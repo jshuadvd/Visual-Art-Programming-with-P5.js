@@ -11,4 +11,11 @@ function setup() {
 
 function draw() {
 
+  fill(250, 240, 230);
+  beginShape();
+    vertex(0, 184);
+    vertex(6, 184);
+    vertex(6, 0);
+    vertex(0, 0)
+  endShape();
 }

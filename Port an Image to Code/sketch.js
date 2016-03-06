@@ -13,9 +13,9 @@ function draw() {
 
   fill(250, 240, 230);
   beginShape();
-    vertex(0, 768);
-    vertex(24, 768);
-    vertex(24, 0);
-    vertex(0, 0)
+    vertex(-2, 769);
+    vertex(24, 769);
+    vertex(24, -2);
+    vertex(-2, -2)
   endShape();
 }

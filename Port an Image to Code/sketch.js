@@ -11,12 +11,12 @@ function setup() {
 
 function draw() {
 
+  // Long Cream Rect
   fill(250, 240, 230);
   rect(0, 0, 24, 768);
 
+  // Light Green Square
   fill(130, 166, 131, 100);
-  //rect(24, 0, 348, 280);
-
   beginShape();
     vertex(24, 0);
     vertex(24, 260);

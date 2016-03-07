@@ -6,12 +6,14 @@
 
 function setup() {
   createCanvas(1024, 768);
-  background(0);
+
 
 
 }
 
 function draw() {
+
+  background(0);
 
   // Long Cream Rect
   fill(250, 240, 230);

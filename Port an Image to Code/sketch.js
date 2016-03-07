@@ -18,7 +18,7 @@ function draw() {
   smooth();
   rect(0, 0, 24, 768);
 
-  // Light Green Square
+  // Large Light Green Square
   fill(130, 166, 131, 50);
   smooth();
   beginShape();
@@ -28,7 +28,7 @@ function draw() {
     vertex(350, 0)
   endShape();
 
-  // Next Light Green Square
+  // Middle Large Light Green Square
   fill(130, 168, 148, 10);
   smooth();
   tint(255, 120);

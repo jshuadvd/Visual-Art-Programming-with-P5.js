@@ -27,7 +27,7 @@ function draw() {
     vertex(350, 0)
   endShape();
 
-  // Middle Large Light Green Square
+  // Top Middle Large Light Green Square
   fill(130, 168, 148, 10);
   smooth();
   tint(255, 120);

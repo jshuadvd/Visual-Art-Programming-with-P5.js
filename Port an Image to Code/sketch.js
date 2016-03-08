@@ -6,21 +6,18 @@
 
 function setup() {
   createCanvas(1024, 768);
-
-
-
 }
 
 function draw() {
 
   background(0);
 
-  // Long Cream Rect
+  // Leftmost Cream Rect
   fill(250, 240, 230);
   smooth();
   rect(0, 0, 24, 768);
 
-  // Large Light Green Square
+  // Top Light Green Square
   fill(130, 166, 131, 50);
   smooth();
   beginShape();

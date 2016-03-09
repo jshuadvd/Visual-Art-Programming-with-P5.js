@@ -38,8 +38,10 @@ function draw() {
     vertex(700, 0)
   endShape();
 
+  fill();
+  smooth();
   beginShape();
     vertex(700, 0);
     vertex(680, 285);
-  endShape();  
+  endShape();
 }

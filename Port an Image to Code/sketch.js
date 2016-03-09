@@ -37,4 +37,9 @@ function draw() {
     vertex(675, 250);
     vertex(700, 0)
   endShape();
+
+  beginShape();
+    vertex(700, 0);
+    vertex(680, 285);
+  endShape();  
 }

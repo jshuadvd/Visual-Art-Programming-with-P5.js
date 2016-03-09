@@ -43,5 +43,6 @@ function draw() {
   beginShape();
     vertex(700, 0);
     vertex(680, 285);
+    vertex();
   endShape();
 }

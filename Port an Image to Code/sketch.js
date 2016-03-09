@@ -6,11 +6,12 @@
 
 function setup() {
   createCanvas(1024, 768);
+  background(0);
 }
 
 function draw() {
 
-  background(0);
+
 
   // Leftmost Cream Rect
   fill(250, 240, 230);
@@ -38,8 +39,9 @@ function draw() {
     vertex(700, 0)
   endShape();
 
-  fill();
+  fill(87, 147, 17);
   smooth();
+  tint(255, 120);
   beginShape();
     vertex(700, 0);
     vertex(680, 285);

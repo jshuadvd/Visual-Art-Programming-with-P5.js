@@ -39,7 +39,7 @@ function draw() {
     vertex(700, 0)
   endShape();
 
-  fill(87, 147, 17);
+  fill(87, 147, 170, 50);
   smooth();
   tint(255, 120);
   beginShape();

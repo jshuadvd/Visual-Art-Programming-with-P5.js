@@ -60,7 +60,7 @@
    background(40, 40, 40);
 
    for (var i = 0; i < openCircles.length; i++) {
-     //openCircles[i].pink();
+     openCircles[i].pink();
      openCircles[i].line();
    }
 
@@ -70,7 +70,7 @@
    // stroke(209, 17, 65);
    // strokeWeight(3);
    // ellipse(20, 20, x1, y1);
-   
+
 
    // fill(0, 174, 219);
    // smooth();

@@ -118,5 +118,6 @@
   fill(0, 174, 219);
   ellipse(100, 20, x1, y1);
 
+  // Have to determine how to create random sized lines all over the canvas
 
  }

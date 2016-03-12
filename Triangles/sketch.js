@@ -1,3 +1,5 @@
+var colors = [];
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }

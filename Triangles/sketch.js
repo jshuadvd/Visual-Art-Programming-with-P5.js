@@ -1,4 +1,28 @@
-var colors = [];
+var colors = color('#ff0329',
+                   '#d13551',
+                   '#EB516B',
+                   '#FF6072',
+                   '#04b8b7',
+                   '#009ba8',
+                   '#03a4ae',
+                   '#10828c',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                   '#',
+                 );
 
 function setup() {
   createCanvas(windowWidth, windowHeight);

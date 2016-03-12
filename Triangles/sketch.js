@@ -16,7 +16,7 @@ function draw() {
 }
 
 function drawTriangles() {
-  fill(209, 17, 28, 150);
+  fill(209, 17, 28);
   noStroke();
   triangle(0, 48, 28, 0, 54, 48);
   fill(0, 174, 219);

@@ -42,7 +42,7 @@ function draw() {
 }
 
 function drawTriangles() {
-  // fill(colors);
+  //fill(random(colors[i]));
   // fill(209, 17, 28);
   noStroke();
   triangle(0, 48, 28, 0, 54, 48);

@@ -43,14 +43,16 @@ function draw() {
 
 function drawTriangles() {
 
-  for (var i = 0; i < colors.length; i++) {
-    console.log(colors[i]);
-    fill(colors[0]);
+  // for (var i = 0; i < colors.length; i++) {
+    // console.log(colors[i]);
+    // fill(colors[0]);
+    fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);
     noStroke();
     triangle(0, 48, 28, 0, 54, 48);
-    fill(colors[i]);
+    fill(colors[Math.floor(random(colors.length))]);
+    //fill(colors[i]);
     // fill(0, 174, 219);
     triangle(28, 0, 54, 48, 82, 0);
-  }
+  // }
 }

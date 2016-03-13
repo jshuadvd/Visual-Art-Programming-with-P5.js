@@ -42,10 +42,15 @@ function draw() {
 }
 
 function drawTriangles() {
-  //fill(random(colors[i]));
+
+  for (var i = 0; i < height; i++) {
+    fill(colors[i]);
+
+  // fill(random(colors[i]));
   // fill(209, 17, 28);
   noStroke();
   triangle(0, 48, 28, 0, 54, 48);
   // fill(0, 174, 219);
   triangle(28, 0, 54, 48, 82, 0);
+}
 }

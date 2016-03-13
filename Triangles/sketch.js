@@ -31,8 +31,8 @@ function setup() {
 function draw() {
   background(40, 40, 40);
 
-  for (var x = -28; x <= windowWidth; x = x+54) {
-		for (var y = 0; y <= windowHeight; y = y+48) {
+  for (var x = -28; x <= windowWidth; x = x + 54) {
+		for (var y = 0; y <= windowHeight; y = y + 48) {
 			push();
 			translate(x, y);
       drawTriangles();
@@ -43,14 +43,14 @@ function draw() {
 
 function drawTriangles() {
 
-  for (var i = 0; i < height; i++) {
+  for (var i = 0; i < colors.length; i++) {
+    console.log(colors[i]);
+    fill(colors[0]);
+    // fill(209, 17, 28);
+    noStroke();
+    triangle(0, 48, 28, 0, 54, 48);
     fill(colors[i]);
-
-  // fill(random(colors[i]));
-  // fill(209, 17, 28);
-  noStroke();
-  triangle(0, 48, 28, 0, 54, 48);
-  // fill(0, 174, 219);
-  triangle(28, 0, 54, 48, 82, 0);
-}
+    // fill(0, 174, 219);
+    triangle(28, 0, 54, 48, 82, 0);
+  }
 }

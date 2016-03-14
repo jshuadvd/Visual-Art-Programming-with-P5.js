@@ -30,7 +30,7 @@ function setup() {
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
   textFont("Helvetica");
-  noLoop();
+  //noLoop();
 }
 
 function draw() {
@@ -94,7 +94,9 @@ function createText() {
 }
 
 function createNums() {
+
   for (var y = 0; y <= windowHeight; y = y + 48) {
+
   var quotes = ["Vision is the art of seeing what is invisible to others.",
                 "The artist vocation is to send light into the human heart.",
                 "The true work of art is but a shadow of the divine perfection.",
@@ -108,8 +110,12 @@ function createNums() {
                ];
 
   var index = floor(random(quotes.length));
-  fill(255, 255, 255);
-  //console.log(quotes[i]);
-  text(index, width / 2, height / 2, 1200, 1200);
+  var randomColors = floor(random(colors.length));
+  var x = -28
+    push();
+    translate(x, y);
+    fill(colors[randomColors], colors[randomColors], colors[randomColors]);
+    text(index, -600, -400, width, height);
+    pop();
   }
 }

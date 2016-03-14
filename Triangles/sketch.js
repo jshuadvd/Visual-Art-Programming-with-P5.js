@@ -47,9 +47,12 @@ function drawTriangles() {
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);
     noStroke();
-    triangle(0, 48, 28, 0, 54, 48);
-    //fill(colors[Math.floor(random(colors.length))]);
+    triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+    // triangle(0, 48, 28, 0, 54, 48);
+    // fill(colors[Math.floor(random(colors.length))]);
     fill(colors[7]);
     // fill(0, 174, 219);
-    triangle(28, 0, 54, 48, 82, 0);
+    // triangle(28, 0, 54, 48, 82, 0);
+    triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+
 }

@@ -43,7 +43,6 @@ function draw() {
 }
 
 function drawTriangles() {
-
     // fill(colors[5]);
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);

@@ -26,6 +26,9 @@ var colors = ['#ff0329', // 0
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  textSize(100);
+  textStyle(BOLD);
+  textFont("Helvetica");
   noLoop();
 }
 
@@ -40,6 +43,8 @@ function draw() {
 			pop();
 		}
 	}
+
+  createText();
 }
 
 function drawTriangles() {
@@ -60,5 +65,10 @@ function drawTriangles() {
     // stroke(255, 96, 114);
     // strokeWeight(4);
     triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+}
 
+function createText() {
+  var words = "Vision is the art of seeing what is invisible to others.";
+  fill(255, 255, 255);
+  text(words, windowWidth / 8, windowHeight / 3, 1200, 300);
 }

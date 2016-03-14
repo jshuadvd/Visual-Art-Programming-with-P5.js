@@ -30,7 +30,7 @@ function setup() {
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
   textFont("Helvetica");
-  //noLoop();
+  noLoop();
 }
 
 function draw() {
@@ -41,11 +41,13 @@ function draw() {
 			push();
 			translate(x, y);
       drawTriangles();
+      //createText();
 			pop();
 		}
 	}
 
   createText();
+  createNums()
 }
 
 function drawTriangles() {
@@ -84,9 +86,30 @@ function createText() {
                 "Art must be an expression of love or it is nothing.",
                 "Love, Create, Inspire"
                ];
-  for (var i = 0; i < quotes.length; i++) {
-    fill(255, 255, 255);
-    text(quotes[i], windowWidth / 10, windowHeight / 3, 1200, 300);
-  }
 
+  var index = floor(random(quotes.length));
+  fill(255, 255, 255);
+  //console.log(quotes[i]);
+  text(quotes[index], windowWidth / 10, windowHeight / 3, 1200, 300);
+}
+
+function createNums() {
+  for (var y = 0; y <= windowHeight; y = y + 48) {
+  var quotes = ["Vision is the art of seeing what is invisible to others.",
+                "The artist vocation is to send light into the human heart.",
+                "The true work of art is but a shadow of the divine perfection.",
+                "To an engineer, good enough means perfect. With an artist, there's no such thing as perfect.",
+                "Art is a collaboration between God and the artist, and the less the artist does the better.",
+                "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
+                "Creativity requires the courage to let go of certainties.",
+                "To create one’s own world takes courage.",
+                "Art must be an expression of love or it is nothing.",
+                "Love, Create, Inspire..."
+               ];
+
+  var index = floor(random(quotes.length));
+  fill(255, 255, 255);
+  //console.log(quotes[i]);
+  text(index, width / 2, height / 2, 1200, 1200);
+  }
 }

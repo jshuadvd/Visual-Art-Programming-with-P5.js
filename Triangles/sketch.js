@@ -26,10 +26,11 @@ var colors = ['#ff0329', // 0
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  textSize(100);
+  textSize(80);
   textStyle(BOLD);
+  textAlign(CENTER, CENTER);
   textFont("Helvetica");
-  noLoop();
+  //noLoop();
 }
 
 function draw() {
@@ -65,10 +66,27 @@ function drawTriangles() {
     // stroke(255, 96, 114);
     // strokeWeight(4);
     triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+
+    fill(colors[1]);
+    //noStroke();
+    triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
 function createText() {
-  var words = "Vision is the art of seeing what is invisible to others.";
-  fill(255, 255, 255);
-  text(words, windowWidth / 8, windowHeight / 3, 1200, 300);
+  var quotes = ["Vision is the art of seeing what is invisible to others.",
+                "The artist vocation is to send light into the human heart.",
+                "The true work of art is but a shadow of the divine perfection.",
+                "To an engineer, good enough means perfect. With an artist, there's no such thing as perfect.",
+                "Art is a collaboration between God and the artist, and the less the artist does the better.",
+                "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
+                "Creativity requires the courage to let go of certainties.",
+                "To create one’s own world takes courage.",
+                "Art must be an expression of love or it is nothing.",
+                "Love, Create, Inspire"
+               ];
+  for (var i = 0; i < quotes.length; i++) {
+    fill(255, 255, 255);
+    text(quotes[i], windowWidth / 10, windowHeight / 3, 1200, 300);
+  }
+
 }

@@ -1,3 +1,4 @@
+/* ++++++++++ ========== Array of colors ========== ++++++++++ */
 var colors = ['#ff0329', // 0
               '#d13551', // 1
               '#dd4655', // 2
@@ -24,6 +25,8 @@ var colors = ['#ff0329', // 0
               '#e6894e'  // 23
              ];
 
+/* ++++++++++ ========== Setup Function ========== ++++++++++ */
+
 function setup() {
   createCanvas(displayWidth, displayHeight);
   textSize(70);
@@ -32,6 +35,8 @@ function setup() {
   textFont("Helvetica");
   noLoop();
 }
+
+/* ++++++++++ ========== Draw Function ========== ++++++++++ */
 
 function draw() {
   background(40, 40, 40);
@@ -50,6 +55,8 @@ function draw() {
   // createNums();
   // resizeCanvas(windowWidth, windowHeight);
 }
+
+/* ++++++++++ ========== Darw Triangles Function ========== ++++++++++ */
 
 function drawTriangles() {
     // fill(colors[5]);
@@ -77,6 +84,8 @@ function drawTriangles() {
     triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
+/* ++++++++++ ========== Create Text Function ========== ++++++++++ */
+
 function createText() {
   var quotes = ["Vision is the art of seeing what is invisible to others.",
                 "The artist vocation is to send light into the human heart.",
@@ -95,6 +104,8 @@ function createText() {
   //console.log(quotes[i]);
   text(quotes[index], width / 10, height / 3, 1200, 300);
 }
+
+/* ++++++++++ ========== Function to Generate Random Numbers ========== ++++++++++ */
 
 function createNums() {
 

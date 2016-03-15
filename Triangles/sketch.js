@@ -28,7 +28,7 @@ var colors = ['#ff0329', // 0
 /* ++++++++++ ========== Setup Function ========== ++++++++++ */
 
 function setup() {
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(windowWidth, windowHeight);
   textSize(70);
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
@@ -41,8 +41,8 @@ function setup() {
 function draw() {
   background(40, 40, 40);
 
-  for (var x = -28; x <= displayWidth; x = x + 54) {
-		for (var y = 0; y <= displayHeight; y = y + 48) {
+  for (var x = -28; x <= windowWidth; x = x + 54) {
+		for (var y = 0; y <= windowHeight; y = y + 48) {
 			push();
 			translate(x, y);
       drawTriangles();
@@ -53,7 +53,6 @@ function draw() {
   // createNums();
   createText();
   // createNums();
-  // resizeCanvas(windowWidth, windowHeight);
 }
 
 /* ++++++++++ ========== Darw Triangles Function ========== ++++++++++ */

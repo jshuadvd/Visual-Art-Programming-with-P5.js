@@ -94,7 +94,7 @@ function createText() {
                 "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
                 "Creativity requires the courage to let go of certainties.",
                 "To create one’s own world takes courage.",
-                "Art must be an expression of love or it is nothing.",
+                "Art must be an expression of love, or it is nothing.",
                 "Love, Inspire, Create..."
                ];
 

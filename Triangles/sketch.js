@@ -30,7 +30,7 @@ function setup() {
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
   textFont("Helvetica");
-  //noLoop();
+  noLoop();
 }
 
 function draw() {
@@ -45,7 +45,7 @@ function draw() {
 			pop();
 		}
 	}
-  createNums();
+  // createNums();
   createText();
 }
 

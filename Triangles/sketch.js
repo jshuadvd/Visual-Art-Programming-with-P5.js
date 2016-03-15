@@ -45,15 +45,16 @@ function draw() {
 			pop();
 		}
 	}
-
+  createNums();
   createText();
-  createNums()
 }
 
 function drawTriangles() {
     // fill(colors[5]);
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);
+    var randomColors = floor(random(colors.length));
+
     fill(colors[5]);
     noStroke();
     triangle(random(255), random(255), random(255), random(255), random(255), random(255));
@@ -64,7 +65,7 @@ function drawTriangles() {
     // fill(0, 174, 219);
     // triangle(28, 0, 54, 48, 82, 0);
 
-    fill(colors[13]);
+    fill(colors[randomColors]);
     // stroke(255, 96, 114);
     // strokeWeight(4);
     triangle(random(255), random(255), random(255), random(255), random(255), random(255));
@@ -95,27 +96,21 @@ function createText() {
 
 function createNums() {
 
-  for (var y = 0; y <= windowHeight; y = y + 48) {
+  for (var x = -90; x <= windowWidth; x = x + 54) {
+    for (var y = 0; y <= windowHeight; y = y + 48) {
 
-  var quotes = ["Vision is the art of seeing what is invisible to others.",
-                "The artist vocation is to send light into the human heart.",
-                "The true work of art is but a shadow of the divine perfection.",
-                "To an engineer, good enough means perfect. With an artist, there's no such thing as perfect.",
-                "Art is a collaboration between God and the artist, and the less the artist does the better.",
-                "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
-                "Creativity requires the courage to let go of certainties.",
-                "To create one’s own world takes courage.",
-                "Art must be an expression of love or it is nothing.",
-                "Love, Create, Inspire..."
-               ];
+      var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-  var index = floor(random(quotes.length));
-  var randomColors = floor(random(colors.length));
-  var x = -28
-    push();
-    translate(x, y);
-    fill(colors[randomColors], colors[randomColors], colors[randomColors]);
-    text(index, -600, -400, width, height);
-    pop();
+      var randomNums = floor(random(nums.length));
+      var randomColors = floor(random(colors.length));
+      //console.log(randomColors);
+
+        push();
+        translate(x, y);
+        textSize(60);
+        // fill(colors[randomColors]);
+        text(nums[randomNums], -600, -400, width, height);
+        pop();
+    }
   }
 }

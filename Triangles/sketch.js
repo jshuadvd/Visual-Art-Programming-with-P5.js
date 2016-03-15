@@ -25,8 +25,8 @@ var colors = ['#ff0329', // 0
              ];
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  textSize(80);
+  createCanvas(displayWidth, displayHeight);
+  textSize(70);
   textStyle(BOLD);
   textAlign(CENTER, CENTER);
   textFont("Helvetica");
@@ -36,8 +36,8 @@ function setup() {
 function draw() {
   background(40, 40, 40);
 
-  for (var x = -28; x <= windowWidth; x = x + 54) {
-		for (var y = 0; y <= windowHeight; y = y + 48) {
+  for (var x = -28; x <= displayWidth; x = x + 54) {
+		for (var y = 0; y <= displayHeight; y = y + 48) {
 			push();
 			translate(x, y);
       drawTriangles();
@@ -47,6 +47,8 @@ function draw() {
 	}
   // createNums();
   createText();
+  // createNums();
+  // resizeCanvas(windowWidth, windowHeight);
 }
 
 function drawTriangles() {
@@ -85,19 +87,19 @@ function createText() {
                 "Creativity requires the courage to let go of certainties.",
                 "To create one’s own world takes courage.",
                 "Art must be an expression of love or it is nothing.",
-                "Love, Create, Inspire"
+                "Love, Inspire, Create..."
                ];
 
   var index = floor(random(quotes.length));
   fill(255, 255, 255);
   //console.log(quotes[i]);
-  text(quotes[index], windowWidth / 10, windowHeight / 3, 1200, 300);
+  text(quotes[index], width / 10, height / 3, 1200, 300);
 }
 
 function createNums() {
 
-  for (var x = -90; x <= windowWidth; x = x + 54) {
-    for (var y = 0; y <= windowHeight; y = y + 48) {
+  for (var x = -90; x <= width; x = x + 54) {
+    for (var y = 0; y <= height; y = y + 48) {
 
       var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -109,8 +111,17 @@ function createNums() {
         translate(x, y);
         textSize(60);
         // fill(colors[randomColors]);
-        text(nums[randomNums], -600, -400, width, height);
+        fill(random(100));
+        text(nums[randomNums], -600, -500, width, height, 10);
         pop();
     }
   }
+}
+
+function mousePressed() {
+  redraw();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

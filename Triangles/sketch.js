@@ -46,7 +46,6 @@ function draw() {
 			push();
 			translate(x, y);
       drawTriangles();
-      //createText();
 			pop();
 		}
 	}

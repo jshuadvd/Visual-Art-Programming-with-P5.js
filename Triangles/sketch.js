@@ -49,6 +49,7 @@ function draw() {
 			pop();
 		}
 	}
+  
   // createNums();
   createText();
   // createNums();

@@ -127,6 +127,7 @@ function createNums() {
   }
 }
 
+/* ++++++++++ ========== Function to Change the Quote When Mouse is Pressed ========== ++++++++++ */
 function mousePressed() {
   redraw();
 }

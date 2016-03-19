@@ -71,6 +71,61 @@
   drawTriangles();
   pop();
 
+  //  noFill();
+  //  smooth();
+  //  stroke(209, 17, 65);
+  //  strokeWeight(3);
+  //  ellipse(20, 20, x1, y1);
+  //
+  //
+  // //  fill(0, 174, 219);
+  // //  smooth();
+  // //  stroke(0, 174, 219);
+  // //  strokeWeight(3);
+  // //  line(20, 60, 60, 20);
+  // //  ellipse(20, 60, x1, y1);
+  // //  noFill();
+  // //  smooth();
+  // //  stroke(0, 174, 219);
+  // //  strokeWeight(3);
+  // //  ellipse(60, 20, x1, y1);
+  //
+  //  beginShape();
+  //   fill(0, 174, 219);
+  //   smooth();
+  //   stroke(0, 174, 219);
+  //   strokeWeight(3);
+  //   ellipse(20, 60, x1, y1);
+  //   vertex(24, 56);
+  //   vertex(56, 24);
+  //   noFill();
+  //   ellipse(60, 20, x1, y1);
+  //  endShape();
+  //
+  //
+  // smooth();
+  // //stroke(0, 174, 219);
+  // noFill();
+  // strokeWeight(3);
+  // noFill();
+  // ellipse(20, 100, x1, y1);
+  //
+  // noFill();
+  // smooth();
+  // stroke(209, 17, 65);
+  // strokeWeight(3);
+  // ellipse(64, 60, x1, y1);
+  //
+  // stroke(0, 174, 219);
+  // strokeWeight(3);
+  // fill(0, 174, 219);
+  // ellipse(100, 20, x1, y1);
+
+  // Have to determine how to create random sized lines all over the canvas
+
+ }
+
+ function drawCircuts() {
    noFill();
    smooth();
    stroke(209, 17, 65);
@@ -120,11 +175,4 @@
   strokeWeight(3);
   fill(0, 174, 219);
   ellipse(100, 20, x1, y1);
-
-  // Have to determine how to create random sized lines all over the canvas
-
- }
-
- function drawCircuts() {
-   
  }

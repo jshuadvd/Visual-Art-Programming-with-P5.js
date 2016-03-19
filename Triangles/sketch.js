@@ -79,7 +79,6 @@ function drawTriangles() {
     triangle(random(255), random(255), random(255), random(255), random(255), random(255));
 
     fill(colors[1]);
-    //noStroke();
     triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
@@ -100,7 +99,6 @@ function createText() {
 
   var index = floor(random(quotes.length));
   fill(255, 255, 255);
-  //console.log(quotes[i]);
   text(quotes[index], width / 10, height / 3, 1200, 300);
 }
 

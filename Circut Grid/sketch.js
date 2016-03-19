@@ -66,14 +66,14 @@
   //    openCircles[i].pink();
   //    openCircles[i].blue();
   //  }
-  for (var x = -28; x <= windowWidth; x = x + 54) {
-		for (var y = 0; y <= windowHeight; y = y + 48) {
+  for (var x = 0; x <= windowWidth; x = x + 50) {
+		for (var y = 0; y <= windowHeight; y = y + 50) {
       push();
       translate(x, y);
       drawCircuts();
       pop();
     }
-  }  
+  }
   //  noFill();
   //  smooth();
   //  stroke(209, 17, 65);
@@ -178,4 +178,6 @@
   strokeWeight(3);
   fill(0, 174, 219);
   ellipse(100, 20, x1, y1);
+
+  // Have to determine positioning
  }

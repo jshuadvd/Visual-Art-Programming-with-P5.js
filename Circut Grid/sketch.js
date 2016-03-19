@@ -66,7 +66,10 @@
   //    openCircles[i].pink();
   //    openCircles[i].blue();
   //  }
-
+  push();
+  translate(x, y);
+  drawTriangles();
+  pop();
 
    noFill();
    smooth();
@@ -120,4 +123,8 @@
 
   // Have to determine how to create random sized lines all over the canvas
 
+ }
+
+ function drawCircuts() {
+   
  }

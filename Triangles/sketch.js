@@ -113,7 +113,6 @@ function createNums() {
 
       var randomNums = floor(random(nums.length));
       var randomColors = floor(random(colors.length));
-      //console.log(randomColors);
         push();
         translate(x, y);
         textSize(60);

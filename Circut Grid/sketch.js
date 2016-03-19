@@ -68,7 +68,7 @@
   //  }
   push();
   translate(x, y);
-  drawTriangles();
+  drawCircuts();
   pop();
 
   //  noFill();

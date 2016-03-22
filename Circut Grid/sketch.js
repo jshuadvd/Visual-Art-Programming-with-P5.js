@@ -129,11 +129,11 @@
  }
 
  function drawCircuts() {
-   noFill();
-   smooth();
-   stroke(209, 17, 65);
-   strokeWeight(3);
-   ellipse(20, 20, x1, y1);
+  //  noFill();
+  //  smooth();
+  //  stroke(209, 17, 65);
+  //  strokeWeight(3);
+  //  ellipse(20, 20, x1, y1);
 
 
   //  fill(0, 174, 219);
@@ -161,23 +161,23 @@
    endShape();
 
 
-  smooth();
-  //stroke(0, 174, 219);
-  noFill();
-  strokeWeight(3);
-  noFill();
-  ellipse(20, 100, x1, y1);
+  // smooth();
+  // //stroke(0, 174, 219);
+  // noFill();
+  // strokeWeight(3);
+  // noFill();
+  // ellipse(20, 100, x1, y1);
 
-  noFill();
-  smooth();
-  stroke(209, 17, 65);
-  strokeWeight(3);
-  ellipse(64, 60, x1, y1);
+  // noFill();
+  // smooth();
+  // stroke(209, 17, 65);
+  // strokeWeight(3);
+  // ellipse(64, 60, x1, y1);
 
-  stroke(0, 174, 219);
-  strokeWeight(3);
-  fill(0, 174, 219);
-  ellipse(100, 20, x1, y1);
+  // stroke(0, 174, 219);
+  // strokeWeight(3);
+  // fill(0, 174, 219);
+  // ellipse(100, 20, x1, y1);
 
   // Have to determine positioning of proper cirkut lines
  }

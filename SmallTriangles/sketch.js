@@ -4,13 +4,32 @@ var pinkColors = ['#ff0329',
                   '#dd4655',
                   '#EB516B',
                   '#FF6072'
-                  ]
+                 ];
 
 var blueColors = ['#00526c',
                   '#10828c',
                   '#009ba8',
                   '#03a4ae',
                   '#00b0b2'
+                 ];
+
+var greenColors = ['#04b8b7',
+                   '#00b7a9',
+                   '#00b392',
+                   '#00bb86'
+                 ];
+
+var yelloColors = ['#d7b74a',
+                   '#dece67',
+                   '#d9d26a',
+                   '#fff22d',
+                   '#dec358'
+
+var ongeColors =  ['#e7a942',
+                   '#e6894e',
+                   '#da7837',
+                   '#e6683c',
+                   '#ff7454'
                  ];
 
 

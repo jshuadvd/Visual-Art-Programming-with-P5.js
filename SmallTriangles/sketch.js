@@ -51,7 +51,7 @@ function draw() {
 	}
 
   // createNums();
-  createText();
+  // createText();
   // createNums();
 }
 

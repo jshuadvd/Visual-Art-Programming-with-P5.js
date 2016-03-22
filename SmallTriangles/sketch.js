@@ -25,6 +25,7 @@ var yellColors = ['#d7b74a',
                   '#d9d26a',
                   '#fff22d',
                   '#dec358'
+                ];
 
 var ongColors =  ['#e7a942',
                   '#e6894e',
@@ -69,24 +70,24 @@ function drawTriangles() {
     // fill(colors[5]);
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);
-    var randomColors = floor(random(colors.length));
+    var randomPink = floor(random(pinkColors.length));
 
-    fill(colors[5]);
+    fill(pinkColors[randomPink]);
     noStroke();
     //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
     triangle(0, 48, 28, 0, 54, 48);
     // fill(colors[Math.floor(random(colors.length))]);
-    fill(colors[7]);
-    //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
-    fill(0, 174, 219);
+    fill(pinkColors[randomPink]);
+    // triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+    // fill(0, 174, 219);
     triangle(28, 0, 54, 48, 82, 0);
 
-    fill(colors[randomColors]);
+    //fill(pinkColors[randomPink]);
     // stroke(255, 96, 114);
     // strokeWeight(4);
     //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
 
-    fill(colors[1]);
+    //fill(pinkColors[randomPink]);
     //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 

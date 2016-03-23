@@ -50,11 +50,11 @@ function setup() {
 function draw() {
   background(40, 40, 40);
 
-  for (var x = -28; x <= windowWidth; x = x + 54) {
-		for (var y = 0; y <= windowHeight; y = y + 48) {
+  for (var x = -28; x <= 300; x = x + 54) {
+		for (var y = 0; y <= 300; y = y + 48) {
 			push();
 			translate(x, y);
-      drawTriangles();
+      drawPinkTriangles();
 			pop();
 		}
 	}
@@ -66,7 +66,7 @@ function draw() {
 
 /* ++++++++++ ========== Darw Triangles Function ========== ++++++++++ */
 
-function drawTriangles() {
+function drawPinkTriangles() {
     // fill(colors[5]);
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);

@@ -59,6 +59,15 @@ function draw() {
 		}
 	}
 
+  for (var x = 348; x <= 654; x = x + 54) {
+		for (var y = 0; y <= 300; y = y + 48) {
+			push();
+			translate(x, y);
+      drawBlueTriangles();
+			pop();
+		}
+	}
+
   // createNums();
   // createText();
   // createNums();
@@ -78,6 +87,31 @@ function drawPinkTriangles() {
     triangle(0, 48, 28, 0, 54, 48);
     // fill(colors[Math.floor(random(colors.length))]);
     fill(pinkColors[randomPink]);
+    // triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+    // fill(0, 174, 219);
+    triangle(28, 0, 54, 48, 82, 0);
+
+    //fill(pinkColors[randomPink]);
+    // stroke(255, 96, 114);
+    // strokeWeight(4);
+    //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+
+    //fill(pinkColors[randomPink]);
+    //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
+}
+
+function drawBlueTriangles() {
+    // fill(colors[5]);
+    // fill(colors[Math.floor(random(colors.length))]);
+    // fill(209, 17, 28);
+    var randomBlue = floor(random(blueColors.length));
+
+    fill(blueColors[randomBlue]);
+    noStroke();
+    //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
+    triangle(0, 48, 28, 0, 54, 48);
+    // fill(colors[Math.floor(random(colors.length))]);
+    fill(blueColors[randomBlue]);
     // triangle(random(255), random(255), random(255), random(255), random(255), random(255));
     // fill(0, 174, 219);
     triangle(28, 0, 54, 48, 82, 0);

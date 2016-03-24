@@ -105,14 +105,14 @@ function drawBlueTriangles() {
     // fill(colors[Math.floor(random(colors.length))]);
     // fill(209, 17, 28);
     var randomBlue = floor(random(blueColors.length));
-    var randomGreen = floor(random(grnColors.length));
+    // var randomGreen = floor(random(grnColors.length));
 
     fill(blueColors[randomBlue]);
     noStroke();
     //triangle(random(255), random(255), random(255), random(255), random(255), random(255));
     triangle(0, 48, 28, 0, 54, 48);
     // fill(colors[Math.floor(random(colors.length))]);
-    fill(grnColors[randomGreen]);
+    fill(blueColors[randomBlue]);
     // triangle(random(255), random(255), random(255), random(255), random(255), random(255));
     // fill(0, 174, 219);
     triangle(28, 0, 54, 48, 82, 0);

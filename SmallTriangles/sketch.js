@@ -67,10 +67,6 @@ function draw() {
 			pop();
 		}
 	}
-
-  // createNums();
-  // createText();
-  // createNums();
 }
 
 /* ++++++++++ ========== Darw Triangles Function ========== ++++++++++ */

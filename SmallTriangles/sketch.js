@@ -123,26 +123,6 @@ function drawBlueTriangles() {
     //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
-/* ++++++++++ ========== Create Text Function ========== ++++++++++ */
-
-// function createText() {
-//   var quotes = ["Vision is the art of seeing what is invisible to others.",
-//                 "The artist vocation is to send light into the human heart.",
-//                 "The true work of art is but a shadow of the divine perfection.",
-//                 "To an engineer, good enough means perfect. With an artist, there's no such thing as perfect.",
-//                 "Art is a collaboration between God and the artist, and the less the artist does the better.",
-//                 "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
-//                 "Creativity requires the courage to let go of certainties.",
-//                 "To create one’s own world takes courage.",
-//                 "Art must be an expression of love, or it is nothing.",
-//                 "Love, Inspire, Create..."
-//                ];
-//
-//   var index = floor(random(quotes.length));
-//   fill(255, 255, 255);
-//   text(quotes[index], width / 10, height / 3, 1200, 300);
-// }
-
 /* ++++++++++ ========== Function to Generate Random Numbers ========== ++++++++++ */
 
 // function createNums() {

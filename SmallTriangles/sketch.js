@@ -123,27 +123,6 @@ function drawBlueTriangles() {
     //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
-/* ++++++++++ ========== Function to Generate Random Numbers ========== ++++++++++ */
-
-// function createNums() {
-//
-//   for (var x = -90; x <= width; x = x + 54) {
-//     for (var y = 0; y <= height; y = y + 48) {
-//
-//       var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-//
-//       var randomNums = floor(random(nums.length));
-//       var randomColors = floor(random(colors.length));
-//         push();
-//         translate(x, y);
-//         textSize(60);
-//         // fill(colors[randomColors]);
-//         fill(random(100));
-//         text(nums[randomNums], -600, -500, width, height, 10);
-//         pop();
-//     }
-//   }
-// }
 
 /* ++++++++++ ========== Function to Change the Quote When Mouse is Pressed ========== ++++++++++ */
 function mousePressed() {

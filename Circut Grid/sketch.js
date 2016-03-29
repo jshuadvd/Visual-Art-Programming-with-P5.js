@@ -2,7 +2,8 @@
  * Project 1: Circut Grid
  * By: Joshua David AKA jshuadvd
  */
-
+	
+/* ========== Create a grid of randomly connected lines generated in different sizes ========== */	
 
  var x1 = 10;
  var y1 = 10;

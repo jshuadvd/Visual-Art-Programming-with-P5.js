@@ -128,6 +128,8 @@
   // Have to determine how to create random sized lines all over the canvas
 
  }
+ 
+ /* ========== Cirkut Creator Function ========== */
 
  function drawCircuts() {
    noFill();

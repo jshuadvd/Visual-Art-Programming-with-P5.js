@@ -9,6 +9,7 @@
  var y1 = 10;
  var openCircles = [];
 
+
  function setup() {
    createCanvas(windowWidth, windowHeight);
    // createCanvas(600, 600);
@@ -58,6 +59,8 @@
   //    }
   //  }
  }
+ 
+ /* ========== Draw Function ========== */
 
  function draw() {
 

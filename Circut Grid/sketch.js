@@ -167,6 +167,7 @@
     ellipse(60, 20, x1, y1);
    endShape();
 
+  /* ========== Smooth Out Pixels ========== */
 
   smooth();
   //stroke(0, 174, 219);

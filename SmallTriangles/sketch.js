@@ -116,6 +116,7 @@ function drawBlueTriangles() {
     // Determine how to generate colors mathematically
     // What is the best way?
     // Should generate in a pattern, but not randomly possibly?
+    // but how do I create the pattern?
     fill(blueColors[randomBlue]);
     noStroke();
     //triangle(random(255), random(255), random(255), random(255), random(255), random(255));

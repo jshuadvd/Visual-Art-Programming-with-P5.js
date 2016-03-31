@@ -104,6 +104,8 @@ function drawPinkTriangles() {
     //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
+/* ========== Draw Blue Triangles ========== */
+
 function drawBlueTriangles() {
     // fill(colors[5]);
     // fill(colors[Math.floor(random(colors.length))]);

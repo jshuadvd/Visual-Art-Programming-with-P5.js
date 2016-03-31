@@ -114,6 +114,7 @@ function drawBlueTriangles() {
     // var randomGreen = floor(random(grnColors.length));
 
     // Determine how to generate colors mathematically
+    // What is the best way?
     fill(blueColors[randomBlue]);
     noStroke();
     //triangle(random(255), random(255), random(255), random(255), random(255), random(255));

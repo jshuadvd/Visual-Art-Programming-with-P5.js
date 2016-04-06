@@ -1,4 +1,7 @@
-
+/**
+ * Project: Triangles
+ * By: Joshua David AKA jshuadvd
+ */
 
 
 

@@ -1,6 +1,7 @@
 /**
  * Project: Triangles
- * By: Joshua David AKA jshuadvd
+ * By: Joshua David AKA @jshuadvd
+ * Email: jshuadvd@icloud.com
  */
 
 

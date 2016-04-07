@@ -72,7 +72,7 @@
   //    openCircles[i].blue();
   //  }
   for (var x = 0; x <= windowWidth; x = x + 50) {
-		for (var y = 0; y <= windowHeight; y = y + 50) {
+    for (var y = 0; y <= windowHeight; y = y + 50) {
       push();
       translate(x, y);
       drawCircuts();

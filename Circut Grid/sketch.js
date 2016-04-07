@@ -142,7 +142,6 @@
    strokeWeight(3);
    ellipse(20, 20, x1, y1);
 
-
    fill(0, 174, 219);
    smooth();
    stroke(0, 174, 219);

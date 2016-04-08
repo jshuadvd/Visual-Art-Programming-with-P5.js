@@ -11,9 +11,6 @@ function setup() {
 }
 
 function draw() {
-
-
-
   // Leftmost Cream Rect
   fill(250, 240, 230);
   smooth();

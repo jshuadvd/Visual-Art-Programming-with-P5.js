@@ -49,8 +49,8 @@ function draw() {
 
   for (var x = -28; x <= windowWidth; x = x + 54) {
 	for (var y = 0; y <= windowHeight; y = y + 48) {
-			push();
-			translate(x, y);
+	  push();
+	  translate(x, y);
       drawTriangles();
 			pop();
 		}

@@ -116,7 +116,7 @@ function createNums() {
     for (var y = 0; y <= height; y = y + 48) {
 
       var nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-
+      
       var randomNums = floor(random(nums.length));
       var randomColors = floor(random(colors.length));
         push();

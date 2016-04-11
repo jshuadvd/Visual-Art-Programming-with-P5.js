@@ -91,6 +91,7 @@ function drawTriangles() {
 /* ++++++++++ ========== Create Text Function ========== ++++++++++ */
 
 function createText() {
+	
   var quotes = ["Vision is the art of seeing what is invisible to others.",
                 "The artist vocation is to send light into the human heart.",
                 "The true work of art is but a shadow of the divine perfection.",

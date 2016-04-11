@@ -51,10 +51,10 @@ function draw() {
 	for (var y = 0; y <= windowHeight; y = y + 48) {
 	  push();
 	  translate(x, y);
-      drawTriangles();
-			pop();
-		}
+          drawTriangles();
+     	  pop();
 	}
+  }
 
   // createNums();
   createText();

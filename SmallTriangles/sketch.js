@@ -136,7 +136,6 @@ function drawBlueTriangles() {
     //triangle(random(60), random(60), random(60), random(60), random(60), random(60));
 }
 
-
 /* ++++++++++ ========== Function to Resize the Display For All Devices ========== ++++++++++ */
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);

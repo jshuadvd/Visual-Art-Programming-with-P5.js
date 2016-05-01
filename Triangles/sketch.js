@@ -136,7 +136,6 @@ function mousePressed() {
   redraw();
 }
 
-
 /* ++++++++++ ========== Function to Resize the Display For All Devices ========== ++++++++++ */
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);

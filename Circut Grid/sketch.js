@@ -9,6 +9,7 @@
  var x1 = 10;
  var y1 = 10;
  var openCircles = [];
+ 
 
 /* ========== Setup Function ========== */
 

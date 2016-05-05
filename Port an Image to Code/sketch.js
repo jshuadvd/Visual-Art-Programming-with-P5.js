@@ -10,7 +10,6 @@ function setup() {
   background(0);
 }
 
-
 function draw() {
   // Leftmost Cream Rect
   fill(250, 240, 230);

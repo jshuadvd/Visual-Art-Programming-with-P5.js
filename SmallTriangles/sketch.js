@@ -8,6 +8,7 @@
 (And in color sequence, distribute colors in a good scale pattern) */
 
 
+
 /* ++++++++++ ========== Arrays of colors ========== ++++++++++ */
 
 var pinkColors = ['#ff0329',

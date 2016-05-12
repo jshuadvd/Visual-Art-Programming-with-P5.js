@@ -78,6 +78,7 @@ function draw() {
 	}
 }
 
+
 /* ++++++++++ ========== Darw Triangles Function ========== ++++++++++ */
 
 function drawPinkTriangles() {

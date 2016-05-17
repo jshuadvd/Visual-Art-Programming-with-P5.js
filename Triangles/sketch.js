@@ -4,7 +4,6 @@
  * Email: jshuadvd@icloud.com
  */
  
- 
 /* ++++++++++ ========== Array of colors ========== ++++++++++ */
 var colors = ['#ff0329', // 0
               '#d13551', // 1

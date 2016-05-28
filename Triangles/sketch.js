@@ -2,7 +2,7 @@
  * Project: Triangles
  * By: Joshua David AKA @jshuadvd
  * Email: jshuadvd@icloud.com
- */
+ **/
 
 
 

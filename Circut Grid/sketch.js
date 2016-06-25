@@ -16,7 +16,6 @@
  
 /* ========== Setup Function ========== */
 
-
  function setup() {
    createCanvas(windowWidth, windowHeight);
    // createCanvas(600, 600);
